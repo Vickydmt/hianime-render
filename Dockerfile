@@ -15,6 +15,5 @@ COPY . .
 # Adjust permissions
 RUN chown -R www-data:www-data /var/www/html
 
-# Set the port Render expects (default is 10000 but Apache uses 80 by default)
-# We'll use Render's default port 10000 or stick to 80 as Render handles the port mapping.
+# Stick to port 80 as Render handles the port mapping.
 EXPOSE 80
