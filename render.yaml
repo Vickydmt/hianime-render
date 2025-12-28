@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: hianimez
+    env: docker
+    plan: free
+    dockerFilePath: ./Dockerfile
+    dockerContext: .
+    envVars:
+      - key: DB_HOSTSEG
+        sync: false
+      - key: DB_USERSEG
+        sync: false
+      - key: DB_PASSSEG
+        sync: false
+      - key: DB_NAMESEG
+        sync: false
+      - key: CONTACT_EMAIL
+        sync: false
