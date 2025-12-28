@@ -3,7 +3,7 @@ services:
     name: hianimez
     env: docker
     plan: free
-    dockerFilePath: ./Dockerfile
+    dockerfilePath: ./Dockerfile
     dockerContext: .
     envVars:
       - key: DB_HOSTSEG
