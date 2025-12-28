@@ -7,7 +7,12 @@ services:
     dockerContext: .
     envVars:
       - key: DB_HOSTSEG
+        value: placeholder_change_me
       - key: DB_USERSEG
+        value: placeholder_change_me
       - key: DB_PASSSEG
+        value: placeholder_change_me
       - key: DB_NAMESEG
+        value: placeholder_change_me
       - key: CONTACT_EMAIL
+        value: placeholder_change_me
